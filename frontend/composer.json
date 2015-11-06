@@ -45,5 +45,14 @@
 	"minimum-stability": "stable",
 	"require-dev": {
 		"doctrine/dbal": "^2.5"
-	}
+	},
+	"repositories": [
+        {   
+            "packagist": false
+        },  
+        {   
+            "type": "composer", 
+            "url": "http://packagist.phpcomposer.com"
+        }   
+    ]
 }
